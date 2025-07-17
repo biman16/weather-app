@@ -18,13 +18,16 @@ main {
 }
 
 .weather{
-    margin: 20px, 5px;
+    margin: 20px 5px;
 }
 .weather h1 {
    text-align: center;
 }
 
 .search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 20px;
     gap: 20px;

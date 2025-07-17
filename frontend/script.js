@@ -18,7 +18,7 @@ function showData(data) {
     if (data.cod === "404") {
         weatherData.innerHTML = `<h2>City not found</h2>`;
     }else{
-        let temp = data.main.temp;
+    let temp = data.main.temp;
     let humidity = data.main.humidity;
     let windSpeed = data.wind.speed;
     let description = data.weather[0].description;
