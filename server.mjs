@@ -34,6 +34,7 @@ app.use(cors());
 const API_KEY = "0852ed4e859e86f2737c470d0088d2d1"; // Use your key
 
 
+app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.send("Weather App Backend is Running ✅");
